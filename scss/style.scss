@@ -22,14 +22,17 @@ html {
         stroke-width: 0.2rem;
         stroke-linecap: round;
         animation: line 3.5s linear infinite;
+        opacity: 0;
         // stroke-dasharray: 80rem;
     
         @keyframes line {
             0% {
+                opacity: 1;
                 stroke-dashoffset: 80rem;
             }
     
             100% {
+                opacity: 1;
                 stroke-dashoffset: 0rem;
             }
         }
