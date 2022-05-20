@@ -17,20 +17,21 @@ html {
 
     .image{
         fill: none;
-        stroke: #fff;
+        stroke: none;
         stroke-width: 0.2rem;
-        stroke-linecap: square;
-        animation: line 3.5s linear;
-        animation-iteration-count: infinite;
+        stroke-linecap: round;
+        animation: line 3.5s linear infinite;
         // stroke-dasharray: 80rem;
     
         @keyframes line {
             0% {
+                stroke: #fff;
                 stroke-dasharray: 4rem 76rem;
                 stroke-dashoffset: 80rem;
             }
     
             100% {
+                stroke: #fff;
                 stroke-dasharray: 4rem 76rem;
                 stroke-dashoffset: 0rem;
             }
