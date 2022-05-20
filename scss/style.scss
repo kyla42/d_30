@@ -6,29 +6,23 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
-    height: 400px;
-    margin-top: -200px;
-    margin-left: -200px;
-    border-radius: 2px;
-    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    width: 40rem;
+    height: 40rem;
+    margin-top: -20rem;
+    margin-left: -20rem;
+    border-radius: 0.2rem;
+    box-shadow: 0.4rem 0.8rem 1.6rem 0 rgba(0,0,0,0.1);
     overflow: hidden;
     background: palevioletred;
 
     .image{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 40rem;
-        height: 40rem;
         fill: none;
         stroke: #fff;
-        // stroke-opacity: 0;
         stroke-width: 0.2rem;
         stroke-linecap: square;
         animation: line 3.5s linear;
-        animation-iteration-count: infinite;
-        // stroke-dasharray: 80rem;
+        animation-iteration-count: 0;
+        stroke-dasharray: 80rem;
     
         @keyframes line {
             0% {
