@@ -21,8 +21,8 @@ html {
         stroke-width: 0.2rem;
         stroke-linecap: square;
         animation: line 3.5s linear;
-        animation-iteration-count: 0;
-        stroke-dasharray: 80rem;
+        animation-iteration-count: infinite;
+        // stroke-dasharray: 80rem;
     
         @keyframes line {
             0% {
